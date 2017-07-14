@@ -34,3 +34,14 @@ Senna Commands (Windows)
 		$ senna-win32 
 		$ "enter some text you want to be tagged" 
 Senna Commands (*nix/Mac)
+	- Option 1:
+		- cd into the Senna directory
+		- $ ./Senna-osx
+		- start typing and click ENTER
+		- it will output the tagged result
+	- Option 2:
+		- cd into the Senna directory
+		- $ ./senna-osx -posvbs < input.txt > ouput.txt. //input & output files need to be in the same directory
+		- other options also apply as listed above
+		- general syntax
+			- $ ./senna-osx OPTIONS < inputfile.txt > outputfile.txt
